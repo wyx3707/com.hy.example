@@ -1,0 +1,8 @@
+从代码的最终结果上看，输出是一样的，但两者是有区别的
+
+no                  区别点                   arraylist                   vector
+1                 推出时间                  jdk1.2之后                   jdk1.0
+2                 线程处理                  异步处理                     同步处理
+3                 性能                      快                           慢
+4                 安全性                    非线程安全的操作             线程安全的操作
+5                 输出                      for\Iterator\ListIterator    for\Iterator\ListIterator\Enumeration

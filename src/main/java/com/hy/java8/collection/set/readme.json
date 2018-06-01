@@ -1,0 +1,13 @@
+List接口的内容是允许重复的，而Set接口的内容是不允许重复的
+
+与List接口一样，如果要想使用Set接口则一定也要通过子类进行对象的实例化，常用的两具了类：HashSet\TreeSet
+
+
+
+
+关于重复元素的说明
+判断两个元素是否相同，是靠在Object中的两个方法
+
+1、public boolean equals(Object obj)  判断是否相等
+2、public int hashCode()              对象编码
+ hashCode()就相当于一个对象的唯一标识，而如果要想进行具体的内容验证就需要使用equals()方法完成

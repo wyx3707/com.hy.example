@@ -1,0 +1,1 @@
+在map中如果一个任意的对象需要作为key保存的话，则对象所在的类必须实现Object类中的equals（）和hashCode()两个方法
