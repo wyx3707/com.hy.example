@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/rabbit
+                            http://www.springframework.org/schema/rabbit/spring-rabbit-1.7.xsd">
+
+    <description>rabbitmq 连接服务配置</description>
+
+    <!-- 连接配置 -->
+    <rabbit:connection-factory id="connectionFactory" addresses="${rabbitmq.address}" username="${rabbitmq.username}"
+                               password="${rabbitmq.password}" />
+                               
+                           
+</beans>
