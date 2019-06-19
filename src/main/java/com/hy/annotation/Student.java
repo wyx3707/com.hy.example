@@ -3,7 +3,7 @@ package com.hy.annotation;
 /**
  * 要操作的数据库表对应的实体类
  *
- * @author wyx
+ * @author WYX
  */
 @DBTable("STUDENT")
 public class Student {

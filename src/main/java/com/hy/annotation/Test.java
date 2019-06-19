@@ -9,7 +9,7 @@ import java.util.List;
  * 这个例子是以一个类的注解的方式组合向数据库插入的时的语句的示例
  * 主要是对注解的应用
  *
- * @author wyx
+ * @author WYX
  */
 public class Test {
 
@@ -62,12 +62,11 @@ public class Test {
                 }
             }
         }
-        String result = "CREATE TABEL " + tableName + " (";
+        String result = "CREATE TABLE " + tableName + " (";
         for (String str : stringArrayList) {
             result += str + ",";
         }
-        result = result.substring(
-                0, result.length() - 1) + ");";
+        result = result.substring(0, result.length() - 1) + ");";
         return result;
     }
 
