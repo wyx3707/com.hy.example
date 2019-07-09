@@ -3,7 +3,7 @@ package com.hy.spring.initbean;
 /**
  * @ClassName InitBean
  * @Desc TODO
- * @Author wyx
+ * @Author WYX
  * @Date 2018/5/8 12:24
  * @Version 1.0
  */
