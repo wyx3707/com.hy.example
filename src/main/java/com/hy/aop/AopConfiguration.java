@@ -8,7 +8,8 @@ import org.springframework.scheduling.annotation.EnableAsync;
 /**
  * 配置类
  *
- * @author wyx
+ * @author WYX
+ * @ComponentScan
  * @EnableAspectJAutoProxy 注释允许在使用目标对象前生成代理对象
  */
 @ComponentScan("com.hy.aop")
