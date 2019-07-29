@@ -3,7 +3,7 @@ package com.hy.bean.initanddestroy;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * Created by wyx on 2017/8/1.
+ * Created by WYX on 2017/8/1.
  * 一个bean的初始化和销毁方法
  */
 public class Test {

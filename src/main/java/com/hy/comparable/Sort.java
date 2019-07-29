@@ -6,7 +6,7 @@ import lombok.Data;
  * 自定义的排序示例
  * 如果需要做比较排序，则必须实现Comparable接口
  *
- * @author wyx
+ * @author WYX
  */
 @Data
 public class Sort implements Comparable<Sort> {

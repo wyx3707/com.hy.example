@@ -3,7 +3,7 @@ package com.hy.other;
 /**
  * 使用final 修饰变量，保证在以后的使用中不能被改变
  *
- * @author wyx
+ * @author WYX
  * 下面的例子就说明了这个，
  * 使用spring.format ，是生成了一个新的字符串
  */

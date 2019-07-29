@@ -4,9 +4,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * Created by wyx on 2017/8/1.
+ * Created by WYX on 2017/8/1.
  *
- * @author wyx
+ * @author WYX
  */
 @Configuration
 public class InitConfiguration {

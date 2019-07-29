@@ -1,6 +1,5 @@
-package com.hy.Interceptor;
+package com.hy.interceptor;
 
-import com.hy.interceptor.InterceptorAnnotation;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.HandlerInterceptor;

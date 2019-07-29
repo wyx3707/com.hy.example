@@ -6,7 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 /**
  * @ClassName Test
  * @Desc TODO
- * @Author wyx
+ * @Author WYX
  * @Date 2018/5/7 16:30
  * @Version 1.0
  */

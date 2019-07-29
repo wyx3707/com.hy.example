@@ -3,7 +3,7 @@ package com.hy.proxy.cglib;
 /**
  * 目标类
  *
- * @author wyx
+ * @author WYX
  */
 public class TargetClass {
 

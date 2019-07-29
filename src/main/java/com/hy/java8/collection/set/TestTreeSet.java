@@ -8,7 +8,7 @@ import java.util.TreeSet;
  * 排序存放的子类：TreeSet
  * 会将内容做排序
  *
- * @author wyx
+ * @author WYX
  */
 public class TestTreeSet {
     public static void main(String[] args) {

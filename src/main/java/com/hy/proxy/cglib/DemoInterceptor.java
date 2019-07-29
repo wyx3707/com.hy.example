@@ -8,7 +8,7 @@ import java.lang.reflect.Method;
 /**
  * cglib 动态代理类实现方式
  *
- * @author wyx
+ * @author WYX
  */
 public class DemoInterceptor implements MethodInterceptor {
 

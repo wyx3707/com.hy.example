@@ -3,7 +3,7 @@ package com.hy.bean.initanddestroy;
 /**
  * 定义一个普通的类
  *
- * @author wyx
+ * @author WYX
  */
 public class InitService {
 

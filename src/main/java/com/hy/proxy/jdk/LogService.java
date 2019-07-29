@@ -3,7 +3,7 @@ package com.hy.proxy.jdk;
 /**
  * 目标类实现
  *
- * @author wyx
+ * @author WYX
  */
 public class LogService implements IlogService {
 

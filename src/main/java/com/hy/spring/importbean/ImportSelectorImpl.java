@@ -1,4 +1,4 @@
-package com.hy.spring.importBean;
+package com.hy.spring.importbean;
 
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;
@@ -22,6 +22,6 @@ public class ImportSelectorImpl implements ImportSelector {
     @Override
     public String[] selectImports(AnnotationMetadata importingClassMetadata) {
 
-        return new String[]{"com.hy.spring.importBean.ReaBean"};
+        return new String[]{"com.hy.spring.importbean.ReaBean"};
     }
 }

@@ -7,7 +7,7 @@ import java.lang.reflect.Proxy;
 /**
  * 代理类
  *
- * @author wyx
+ * @author WYX
  */
 public class LogProxy {
 

@@ -1,11 +1,10 @@
 package com.hy.spring.config;
 
 import com.hy.spring.bean.Color;
-import com.hy.spring.importBean.BlueBean;
-import com.hy.spring.importBean.ImportSelectorImpl;
-import com.hy.spring.importBean.YellowBean;
+import com.hy.spring.importbean.BlueBean;
+import com.hy.spring.importbean.ImportSelectorImpl;
+import com.hy.spring.importbean.YellowBean;
 import org.springframework.context.annotation.*;
-import org.springframework.stereotype.Service;
 
 /**
  * @ComponentScan value: 指定要扫描的包
@@ -16,8 +15,8 @@ import org.springframework.stereotype.Service;
  * @Version 1.0
  */
 @Configuration
-@ComponentScan(value = "com.hy.spring",
-        excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, value = Service.class)})
+//@ComponentScan(value = "com.hy.spring",        excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, value = Service.class)})
+@ComponentScan(value = "com.hy.spring")
 @Import(value = {YellowBean.class, BlueBean.class, ImportSelectorImpl.class})
 public class SpringConfiguration {
 

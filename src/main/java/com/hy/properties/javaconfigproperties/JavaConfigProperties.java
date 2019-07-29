@@ -7,7 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 /**
  * java配置属性
  *
- * @author wyx
+ * @author WYX
  */
 @PropertySource("classpath:rabbitmq.properties")
 @Configuration

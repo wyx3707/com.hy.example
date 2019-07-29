@@ -1,4 +1,4 @@
-package com.hy.spring.importBean;
+package com.hy.spring.importbean;
 
 /**
  * @ClassName YellowBean

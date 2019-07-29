@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
 /**
- * Created by wyx on 2017/8/1.
+ * Created by WYX on 2017/8/1.
  */
 @Configuration
 public class ScopeConfiguration {

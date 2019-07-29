@@ -14,7 +14,7 @@ import java.util.Properties;
 import java.util.Set;
 
 /**
- * Created by wyx on 2017/7/24.
+ * Created by WYX on 2017/7/24.
  */
 public class CustomPropertiesConfiguration extends PropertyResourceConfigurer {
 

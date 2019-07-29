@@ -6,7 +6,7 @@ import java.util.Vector;
 /**
  * Vector 子类实际上是最早的数据 结构的实现为在， 也称为向量
  *
- * @author wyx
+ * @author WYX
  */
 public class TestVector {
     public static void main(String[] args) {

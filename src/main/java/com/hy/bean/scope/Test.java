@@ -3,7 +3,7 @@ package com.hy.bean.scope;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * Created by wyx on 2017/8/1.
+ * Created by WYX on 2017/8/1.
  */
 public class Test {
 
