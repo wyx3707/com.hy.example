@@ -8,8 +8,12 @@ package com.hy.adapter;
  * @Version 1.0
  */
 public class Mp4Impl implements Mp4Service {
+
+    /**
+     *
+     */
     @Override
-    public void song() {
-        System.out.println("mp4");
+    public void run() {
+        System.out.println("Run");
     }
 }

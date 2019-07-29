@@ -10,10 +10,12 @@ package com.hy.adapter;
 public class Test {
 
     public static void main(String[] args) {
-        Mp4Service mp4Service = new Mp4Impl();
 
-        Mp3Adapter mp3Adapter = new Mp3Adapter(mp4Service);
+        Mp3Service mp3Service=new Mp3Impl();
+
+        Adapter mp3Adapter = new Adapter(mp3Service);
         mp3Adapter.song();
+        mp3Adapter.run();
 
     }
 }
