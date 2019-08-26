@@ -1,4 +1,4 @@
-package com.hy.configur;
+package com.hy.configuration;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
