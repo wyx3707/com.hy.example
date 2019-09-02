@@ -1,4 +1,4 @@
-package com.hy.adapter;
+package com.hy.designpattern.adapter;
 
 public interface Mp3Service {
 

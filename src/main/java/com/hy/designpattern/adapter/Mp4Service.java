@@ -1,4 +1,4 @@
-package com.hy.adapter;
+package com.hy.designpattern.adapter;
 
 /**
  * mp4服务
