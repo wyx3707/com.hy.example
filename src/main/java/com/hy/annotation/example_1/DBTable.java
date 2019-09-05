@@ -1,4 +1,4 @@
-package com.hy.annotation;
+package com.hy.annotation.example_1;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

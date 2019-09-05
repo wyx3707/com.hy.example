@@ -1,4 +1,4 @@
-package com.hy.annotation;
+package com.hy.annotation.example_1;
 
 /**
  * 要操作的数据库表对应的实体类

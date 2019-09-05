@@ -1,4 +1,4 @@
-package com.hy.annotation;
+package com.hy.annotation.example_1;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
@@ -24,7 +24,7 @@ public class Test {
 
     private static String createSql() throws Exception {
         //加载某个类的全类名
-        Class<?> aClass = Class.forName("com.hy.annotation.Student");
+        Class<?> aClass = Class.forName("com.hy.annotation.example_1.Student");
         //获取这个类的DBTable注解定义
         DBTable dbTable = aClass.getAnnotation(DBTable.class);
         if (null == dbTable) {

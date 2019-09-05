@@ -1,4 +1,5 @@
-package com.hy.annotation;
+package com.hy.annotation.example_2;
+
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,10 +8,14 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface SQLString {
-    String name() default "";
+public @interface SetValue {
 
-    int length() default 4;
+    Class<?> classz();
 
-    Constraints constraints() default @Constraints;
+    String methodName() default "";
+
+    String getValue() default "";
+
+    String setValue() default "";
+
 }

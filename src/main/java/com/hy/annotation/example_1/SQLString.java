@@ -1,19 +1,16 @@
-package com.hy.annotation;
+package com.hy.annotation.example_1;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-/**
- * 约束注解
- */
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Constraints {
-    //是否是主键
-    boolean primaryKey() default false;
+public @interface SQLString {
+    String name() default "";
 
-    //是否允许为空
-    boolean allowNull() default true;
+    int length() default 4;
+
+    Constraints constraints() default @Constraints;
 }
