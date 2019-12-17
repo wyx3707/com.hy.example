@@ -1,22 +1,14 @@
 package com.hy.designpattern.strategy;
 
-public class BjDuck extends Duck {
-
-    public void setItea(ITea iTea) {
-        this.iTea = iTea;
-    }
-
-    public void setIrun(IRun irun) {
-        this.iRun = irun;
-    }
-
-    @Override
-    void tea() {
-        iTea.tea();
-    }
+/**
+ * 具体的操作实现
+ *
+ * @author wyx
+ */
+class BjDuck extends AbstractDuck {
 
     @Override
     void run() {
-        this.iRun.run();
+        System.out.println("我是北京的鸭子，嘎嘎嘎。。。。");
     }
 }
