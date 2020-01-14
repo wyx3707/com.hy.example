@@ -1,9 +1,9 @@
 package com.hy.designpattern.requestchain;
 
-public class ShCity extends CityElect {
+ class ShCity extends CityElect {
 
 
-    public ShCity(CityElect cityElect) {
+     ShCity(CityElect cityElect) {
         this.cityElect = cityElect;
     }
 

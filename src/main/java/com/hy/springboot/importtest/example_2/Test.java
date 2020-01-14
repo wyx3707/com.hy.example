@@ -4,7 +4,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class Test {
     public static void main(String[] args) {
-        AnnotationConfigApplicationContext annotationConfigApplicationContext=new AnnotationConfigApplicationContext(ImportConfigration.class);
+        AnnotationConfigApplicationContext annotationConfigApplicationContext=new AnnotationConfigApplicationContext(ImportSelectorConfiguration.class);
         Student bean = annotationConfigApplicationContext.getBean(Student.class);
         bean.say();
 

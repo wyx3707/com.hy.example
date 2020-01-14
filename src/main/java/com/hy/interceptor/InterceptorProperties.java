@@ -8,13 +8,18 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by wyx on 2017/7/25.
+ * 拦截器的属性配置文件，主要是配置拦截路径和非拦截路径
+ *
+ * @author wyx
  */
 @Component
 @ConfigurationProperties(prefix = "hy.web")
 @Data
 public class InterceptorProperties {
-    private Map<String, Path> map = new HashMap<>();
+    /**
+     * 这个定义名一定要和application.properties文件中的定义的一致
+     */
+    private Map<String, Path> interceptors = new HashMap<>();
 
     @Data
     public static class Path {
