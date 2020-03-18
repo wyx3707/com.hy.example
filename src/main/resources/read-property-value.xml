@@ -7,7 +7,8 @@
                             http://www.springframework.org/schema/rabbit
                             http://www.springframework.org/schema/rabbit/spring-rabbit-1.7.xsd">
     <bean id="read" class="com.hy.configuration.ReadPropertyValue">
-        <property name="name" value="${rabbitmq.address}"/>
+        <!--<property name="name" value="${rabbitmq.address}"/>-->
+        <property name="name" value="abcdefg"/>
     </bean>
 
 
