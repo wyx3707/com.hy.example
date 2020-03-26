@@ -8,12 +8,12 @@ import java.lang.reflect.Field;
 /**
  * 启动项
  * Created by wyx on 2017/8/1.
+ *
+ * @author wyx
  */
 
 @Configuration
 @ComponentScan("com.hy.event")
 public class EventConfiguration {
- public static void main(String[] args) {
 
- }
 }

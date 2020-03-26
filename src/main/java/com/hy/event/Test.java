@@ -8,7 +8,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class Test {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(EventConfiguration.class);
-        System.out.println("开如发布事件");
+        System.out.println("开始发布事件");
         annotationConfigApplicationContext.publishEvent(new MyEvent(annotationConfigApplicationContext, "土豆土豆这是面瓜"));
+        //发布的事件必须完成后，主线程再继续执行
+        System.out.println("结束发布事件");
     }
 }

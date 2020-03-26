@@ -17,5 +17,10 @@ public class MyEventLister implements ApplicationListener<MyEvent> {
     public void onApplicationEvent(MyEvent event) {
         String msg = event.getMsg();
         System.out.println("我监听到了" + msg);
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
