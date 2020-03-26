@@ -1,18 +1,11 @@
 package com.hy.collection;
 
 
-import com.alibaba.fastjson.JSONObject;
-import org.springframework.util.CollectionUtils;
-import org.springframework.util.StringUtils;
-
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
-
-import static org.springframework.data.repository.init.ResourceReader.Type.JSON;
 
 /**
  * 集合工具类的操作
