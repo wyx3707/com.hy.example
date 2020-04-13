@@ -1,4 +1,4 @@
-package com.hy.spring.initbean;
+package com.hy.spring.initbean.example1;
 
 /**
  * @ClassName InitBean
@@ -9,15 +9,24 @@ package com.hy.spring.initbean;
  */
 public class InitBean {
 
+    /**
+     * 定义初始化方法
+     */
     public void init() {
         System.out.println("InitBean init");
     }
 
+    /**
+     * 定义销毁方法
+     */
     public void destroy() {
         System.out.println("InitBean destroy");
     }
 
+    /**
+     * 构造方法
+     */
     public InitBean() {
-        System.out.println("constr InitBean");
+        System.out.println("InitBean constructor");
     }
 }

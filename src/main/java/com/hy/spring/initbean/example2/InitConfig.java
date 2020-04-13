@@ -1,4 +1,4 @@
-package com.hy.spring.initbean;
+package com.hy.spring.initbean.example2;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,16 +13,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class InitConfig {
 
-    /**
-     * 方法一：
-     * 在类上有多个方法 ，可定义初始方法和销毁方法
-     *
-     * @return
-     */
-    @Bean(initMethod = "init", destroyMethod = "destroy")
-    public InitBean initBean() {
-        return new InitBean();
-    }
 
     /**
      * 方法二：
