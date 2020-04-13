@@ -1,9 +1,0 @@
-@Import 3种使用方式
-1直接导入普通的java类 在example_1中
-
-
-2配合自定义的importSelector使用 在example_1中
-importSelector是一个接口，该接口中只有一个selectImport方法，用于返回全类名数组，所以利用该特性可以给容器动态导入N个bean
-
-3配合importBeanDefinitionRegistrar使用在example_1中
-
