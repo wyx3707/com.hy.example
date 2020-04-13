@@ -1,4 +1,4 @@
-package com.hy.springboot.importtest.example_1;
+package com.hy.spring.importtest.example_1;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

@@ -1,9 +1,9 @@
-package com.hy.springboot.importtest.example_1;
+package com.hy.spring.importtest.example_2;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
-@Import(Student.class)
+@Import(MyImportSelector.class)
 @Configuration
-public class ImportConfiguration {
+public class ImportSelectorConfiguration {
 }

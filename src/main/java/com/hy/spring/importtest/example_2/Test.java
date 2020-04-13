@@ -1,4 +1,4 @@
-package com.hy.springboot.importtest.example_2;
+package com.hy.spring.importtest.example_2;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -8,5 +8,7 @@ public class Test {
         Student bean = annotationConfigApplicationContext.getBean(Student.class);
         bean.say();
 
+        Theach bean1 = annotationConfigApplicationContext.getBean(Theach.class);
+        bean1.say();
     }
 }

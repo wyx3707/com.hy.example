@@ -1,4 +1,4 @@
-package com.hy.springboot.importtest.example_2;
+package com.hy.spring.importtest.example_2;
 
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;
@@ -12,6 +12,6 @@ public class MyImportSelector implements ImportSelector {
      */
     @Override
     public String[] selectImports(AnnotationMetadata importingClassMetadata) {
-        return new String[]{"com.hy.springboot.importtest.example_2.Student"};
+        return new String[]{"com.hy.spring.importtest.example_2.Student","com.hy.spring.importtest.example_2.Theach"};
     }
 }

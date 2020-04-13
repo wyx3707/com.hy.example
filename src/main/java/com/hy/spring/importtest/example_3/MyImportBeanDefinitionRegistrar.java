@@ -1,4 +1,4 @@
-package com.hy.springboot.importtest.example_3;
+package com.hy.spring.importtest.example_3;
 
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.beans.factory.support.RootBeanDefinition;
@@ -9,6 +9,7 @@ public class MyImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegi
 
     @Override
     public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
+        System.out.println("------------------------");
         RootBeanDefinition beanDefinition = new RootBeanDefinition(Student.class);
         registry.registerBeanDefinition("student_3", beanDefinition);
 

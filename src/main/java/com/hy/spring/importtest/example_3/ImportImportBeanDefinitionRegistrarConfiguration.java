@@ -1,4 +1,4 @@
-package com.hy.springboot.importtest.example_3;
+package com.hy.spring.importtest.example_3;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
